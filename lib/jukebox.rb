@@ -18,9 +18,14 @@ def help
   puts "- exit : exits this program"
 end
 
+
+index = []
+list = []
 def list(songs)
   songs.map.each_with_index do |song, index|  
     puts "#{index+1}. #{song}"
+     index << index + 1 
+     list << song
   end
 end
 
