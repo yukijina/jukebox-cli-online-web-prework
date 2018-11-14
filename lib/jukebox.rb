@@ -19,7 +19,9 @@ def help
 end
 
 def list(songs)
-  songs.each {|song| puts song}
+  songs.map.each_with_index do |song, index|  
+    puts "#{index+1}. #{song}"
+  end
 end
   
 
