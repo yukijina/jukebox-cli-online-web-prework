@@ -19,14 +19,13 @@ def help
 end
 
 
-idx = []
+
 def list(songs)
   songs.map.each_with_index do |song, index|  
     puts "#{index+1}. #{song}"
-     idx << index + 1 
   end
 end
-idx
+
 
 
 def play(songs)
