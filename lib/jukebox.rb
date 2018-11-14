@@ -32,17 +32,17 @@ def play(songs)
   #puts "Please enter a song name or number:"
   gets.chomp 
   user_input = gets.chomp
-  output = nil
+  o#utput = nil
  
   songs.each_with_index do |song, index|
     num = index +1
     if user_input == num || user_input == song
-      output = "Playing #{song}"
+      puts "Playing #{song}"
     #elsif user_input != num || user_input != song
       #output = "Invalid input, please try again"
     end
   end
-  puts "#{output}"
+  #puts "#{output}"
 end
   
 
