@@ -36,7 +36,7 @@ def play(songs)
  
   songs.each_with_index do |song, index|
     num = index +1
-    if user_input == num || user_input.include?(song)
+    if user_input == num || user_input == song
       output = "Playing #{song}"
     #elsif user_input != num || user_input != song
       #output = "Invalid input, please try again"
