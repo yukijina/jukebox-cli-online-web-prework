@@ -37,7 +37,7 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   user_input = gets.chomp 
-  list(user_input)
+  list(songs)
   if user_input == idx || user_input == song_list
     puts "Playing #{song_list}"
   else 
