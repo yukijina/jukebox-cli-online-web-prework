@@ -40,6 +40,7 @@ def play(songs)
       puts "Playing #{song}"
     #elsif user_input != num || user_input != song
       #output = "Invalid input, please try again"
+      binding.pry
     end
   end
   #puts "#{output}"
