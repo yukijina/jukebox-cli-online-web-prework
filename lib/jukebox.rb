@@ -33,11 +33,12 @@ def play(songs)
   user_input = gets.chomp 
  
   songs.each_with_index do |song, index|
-  if user_input == idx || user_input == song_list
-    puts "Playing #{song_list}"
+  if user_input == index || user_input == song
+    puts "Playing #{song}"
   else 
     puts "Invalid input, please try again"
   end
+end
 end
   
 
