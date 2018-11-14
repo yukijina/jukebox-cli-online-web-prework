@@ -32,7 +32,7 @@ def play(songs)
   #puts "Please enter a song name or number:"
   gets.chomp 
   user_input = gets.chomp
-  o#utput = nil
+  #output = nil
  
   songs.each_with_index do |song, index|
     num = index +1
