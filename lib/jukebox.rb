@@ -39,7 +39,7 @@ def play(songs)
     if user_input == num || user_input.include?(song)
       output = "Playing #{song}"
     elsif user_input != num || user_input != song
-      #output = "Invalid input, please try again"
+      output = "Invalid input, please try again"
     end
   end
   puts "#{output}"
