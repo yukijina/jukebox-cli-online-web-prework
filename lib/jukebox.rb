@@ -21,9 +21,12 @@ end
 
 
 def list(songs)
+  idx = []
   songs.map.each_with_index do |song, index|  
     puts "#{index+1}. #{song}"
+    idx << index+1
   end
+  idx
 end
 
 
