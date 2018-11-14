@@ -31,6 +31,8 @@ def play(songs)
   list(songs)
   if user_input == index+1 || user_input == song 
     puts "Playing #{song}"
+  else 
+    puts "Invalid input, please try again"
 end
   
 
